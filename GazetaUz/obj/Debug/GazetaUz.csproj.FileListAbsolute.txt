@@ -1,0 +1,14 @@
+f:\IT\API\GazetaUz\GazetaUz\bin\GazetaUz.dll.config
+f:\IT\API\GazetaUz\GazetaUz\bin\GazetaUz.dll
+f:\IT\API\GazetaUz\GazetaUz\bin\GazetaUz.pdb
+f:\IT\API\GazetaUz\GazetaUz\bin\Newtonsoft.Json.dll
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Net.Http.Formatting.dll
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Web.Http.dll
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Web.Http.WebHost.dll
+f:\IT\API\GazetaUz\GazetaUz\bin\Newtonsoft.Json.xml
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Net.Http.Formatting.xml
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Web.Http.xml
+f:\IT\API\GazetaUz\GazetaUz\bin\System.Web.Http.WebHost.xml
+f:\IT\API\GazetaUz\GazetaUz\obj\Debug\GazetaUz.csprojResolveAssemblyReference.cache
+f:\IT\API\GazetaUz\GazetaUz\obj\Debug\GazetaUz.dll
+f:\IT\API\GazetaUz\GazetaUz\obj\Debug\GazetaUz.pdb

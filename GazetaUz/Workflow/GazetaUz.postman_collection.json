@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "f8545896-d6d8-440f-b44d-91098a021e7e",
+		"name": "GazetaUz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sync",
+			"item": [
+				{
+					"name": "https://content.guardianapis.com/sections?q=business&api-key=test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://content.guardianapis.com/sections?q=business&api-key=test",
+							"protocol": "https",
+							"host": [
+								"content",
+								"guardianapis",
+								"com"
+							],
+							"path": [
+								"sections"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "business"
+								},
+								{
+									"key": "api-key",
+									"value": "test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://news67.p.rapidapi.com/topic-research?from=2020-09-10&limit=10&language=en&search=sport",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"host": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Rapidapi-Key",
+								"value": " 9fe278ce31msh30ba807b0ded34bp10380fjsn0ab7f3c2c121",
+								"type": "text"
+							},
+							{
+								"key": "X-Rapidapi-Host",
+								"value": " news67.p.rapidapi.com",
+								"type": "text"
+							},
+							{
+								"key": "Host",
+								"value": " news67.p.rapidapi.com",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://news67.p.rapidapi.com/topic-research?from=2020-09-10&limit=10&language=en&search=sport",
+							"protocol": "https",
+							"host": [
+								"news67",
+								"p",
+								"rapidapi",
+								"com"
+							],
+							"path": [
+								"topic-research"
+							],
+							"query": [
+								{
+									"key": "from",
+									"value": "2020-09-10"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "search",
+									"value": "sport"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "http://localhost:31420/api/news",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31420/api/news",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31420",
+					"path": [
+						"api",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:31420/api/news?id=50d1650d-a16a-488c-abb4-c64fe2650787",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31420/api/news?id=50d1650d-a16a-488c-abb4-c64fe2650787",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31420",
+					"path": [
+						"api",
+						"news"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "50d1650d-a16a-488c-abb4-c64fe2650787"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:31420/api/news",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Title\": \"T\",\r\n    \"Description\": \"Q\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:31420/api/news",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31420",
+					"path": [
+						"api",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:31420/api/news?id=50d1650d-a16a-488c-abb4-c64fe2650787",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Title\": \"Normal text\",\r\n    \"Description\": \"Good dwqeqweqesc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:31420/api/news?id=50d1650d-a16a-488c-abb4-c64fe2650787",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31420",
+					"path": [
+						"api",
+						"news"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "50d1650d-a16a-488c-abb4-c64fe2650787"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:31420/api/news?id=eef3b079-0ee5-4d1d-b05d-d391e21b4699",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31420/api/news?id=eef3b079-0ee5-4d1d-b05d-d391e21b4699",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31420",
+					"path": [
+						"api",
+						"news"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "eef3b079-0ee5-4d1d-b05d-d391e21b4699"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

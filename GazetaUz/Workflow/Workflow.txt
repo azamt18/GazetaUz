@@ -1,0 +1,3 @@
+references:
+- https://open-platform.theguardian.com/documentation/search
+- https://public-apis.io/category/news-apis
